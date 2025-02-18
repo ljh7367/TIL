@@ -1,0 +1,59 @@
+1일차 동영상 강의를 통해서 로그인 페이지를 만들어보았다.
+주의해야할점은 항상 코드가 끝날 때 마다 ; 를 붙혀줘야한다. 가끔 실행을 했는데 실행이 되지 않을경우에는 ;가 없었던 적이 많았다. 또 한 오타가 생기면 오류를 MSQL 처럼 오류를 잡아주는게 없어서 조금 불편하지만 조심해서 잘 타이핑을 해야한다.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+        * {
+                font-family: "Jua", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+            .mytitle {
+                width: 300px;
+                height: 200px;
+
+                color: white;
+                text-align: center;
+
+                padding-top: 40px;
+                border-radius: 10px;
+
+                background-image: url('https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201706/23/b71449f8-e830-45a0-bb4d-7b1a328e19f2.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .wrap {
+
+                width: 300px;
+                margin: 60px auto 0px auto;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="mytitle">
+            <h1>로그인 페이지</h1>
+            <h5>아이디, 비밀번호를 입력해주세요</h5>
+        </div>
+        <p>ID : <input type="text" /> </p>
+        <p>PW : <input type="text" /> </p>
+        <button>로그인</button> <button> 회원가입</button>
+    </div>
+
+</body>
+
+</html>
